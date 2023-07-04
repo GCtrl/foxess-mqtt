@@ -80,7 +80,7 @@ do
   --host ${MQTT_HOST} \
   --username ${MQTT_USERNAME} \
   --password ${MQTT_PASSWORD} \
-  foxesscloud/${OPTION} \
+  foxesscloud15/${OPTION} \
   "$VALUE" 2>&1 > /dev/null
 done
 
