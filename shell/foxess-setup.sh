@@ -21,8 +21,8 @@ setup_ha_mqtt(){
       \"manufacturer\": \"FoxEss\"
     },
     \"stat_t\": \"~${MQTTtopic}\",
-    \"uniq_id\": \"foxesscloud-${MQTTtopic}\",
-    \"~\": \"foxesscloud/\",
+    \"uniq_id\": \"foxesscloud15-${MQTTtopic}\",
+    \"~\": \"foxesscloud15/\",
     \"unit_of_measurement\": \"KW\",
     \"dev_cla\": \"power\",
     \"exp_aft\": 86400
