@@ -29,7 +29,7 @@ do
   --host ${MQTT_HOST} \
   --username ${MQTT_USERNAME} \
   --password ${MQTT_PASSWORD} \
-  foxesscloud/${OPTION}_kwh \
+  foxesscloud15/${OPTION}_kwh \
   "$VALUE_KWH" 2>&1 > /dev/null
 done
 echo $JSON > foxess.data
