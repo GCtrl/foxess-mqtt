@@ -51,8 +51,8 @@ class mqtt extends json {
             "manufacturer": "FoxEss"
           },
           "stat_t": "~'.$name.'_kwh",
-          "uniq_id": "foxesscloud-'.$name.'_kwh",
-          "~": "foxesscloud/",
+          "uniq_id": "foxesscloud15-'.$name.'_kwh",
+          "~": "foxesscloud15/",
           "unit_of_measurement": "kWh",
           "dev_cla": "energy",
           "state_class": "total_increasing",
@@ -74,8 +74,8 @@ class mqtt extends json {
         "manufacturer": "FoxEss"
       },
       "stat_t": "~'.$name.'",
-      "uniq_id": "foxesscloud-'.$name.'",
-      "~": "foxesscloud/",
+      "uniq_id": "foxesscloud15-'.$name.'",
+      "~": "foxesscloud15/",
       "unit_of_measurement": "'.$unit.'",
       "dev_cla": "'.$dev_cla.'",
       "exp_aft": 86400
